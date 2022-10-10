@@ -1,0 +1,10 @@
+{
+  "posts": [
+    { "id": 1, "userName": "Md sayem mia", "age": 20 },
+    { "id": 2, "userName": "Rifat Ali", "age": 20 },
+    { "id": 3, "userName": "Ahamed Mia", "age": 20 },
+    { "id": 4, "userName": "Shufol Ali", "age": 20 },
+    { "id": 5, "userName": "Forhad Reza", "age": 20 },
+    { "id": 6, "userName": "Shakib Al Hasan", "age": 20 }
+  ]
+}
