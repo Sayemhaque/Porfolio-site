@@ -23,7 +23,7 @@ const Skills = () => {
             <div className="grid  sm:grid-cols-3 gap-5">
                  {/* frontend skills */}
                <div className="bg-[#EDF5E1] sm:col-span-2  bg-opacity-30 p-10 shadow-lg">
-                  <div className="flex flex-col  space-y-5  sm:text-[20px]">
+                  <div className="flex flex-col  space-y-5 text-[20px]">
                      <p className="text-2xl font-bold">
                         <i class="fa-solid fa-square-check"></i> Front-end
                      </p>

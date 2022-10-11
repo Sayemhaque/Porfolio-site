@@ -10,7 +10,7 @@ const About = () => {
             <div className="max-w-[1000px] mx-auto pt-10">
                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-5 '>
                     <div className=" bg-[#EDF5E1] bg-opacity-30 p-10 ">
-                    <p className="text-justify  text-xl ">
+                    <p className="text-justify  text-sm sm:text-lg">
                     “Hello,I’m sayem! I’m passionate about web development.I’m skilled in HTML, css,JavaScript,React and many more you can look around at skill section.
                     I’m now looking for a junior frontend dev position as I am
                      learning coding since 2021.”

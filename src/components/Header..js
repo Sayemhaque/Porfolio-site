@@ -6,7 +6,7 @@ const Header = () => {
   const handleClick = () => setShowNav(!showNav)
 
   return (
-    <div className="sticky top-0 z-50 w-full py-5 px-8  bg-[#EDf5E1]  bg-opacity-50  ">
+    <div  className="sticky top-0 z-50 w-full py-5 px-8  bg-[#EDf5E1]  bg-opacity-50  ">
       <nav className="flex max-w-[1000px] mx-auto   justify-between items-center">
         <div>
           <h1 className='font-serif text-4xl font-bold'>SaYeM</h1>
