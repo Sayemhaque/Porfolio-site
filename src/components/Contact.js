@@ -3,10 +3,13 @@ import React from 'react'
 const Contact = () => {
     return (
         <section name='contact' className="pt-24 w-full min-h-[85vh] bg-[#5CDB95] px-8">
-            <div>
-                <p className="text-left sm:text-center text-4xl font-bold ">Contact Me</p>
-            </div>
-            <div className="max-w-[1000px] mx-auto py-10">
+           <div>
+        <p className="text-left sm:text-center text-2xl md:text-5xl font-bold ">contact</p>
+        <p className="sm:text-center text-sm md:text-xl mt-2">
+          conncet  <span className="text-[#EDf5E1]"> with me </span>
+        </p>
+      </div>
+            <div className="max-w-[1000px] mx-auto pt-10">
                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-5 shadow-lg '>
                     <div className=" bg-[#EDF5E1] bg-opacity-30 p-10 flex flex-col space-y-3 justify-center">
                         <input type="text" className='px-5 py-1 border-black bg-opacity-30 bg-white focus:border-none' placeholder='your name' />

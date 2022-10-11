@@ -9,11 +9,11 @@ const Works = () => {
   return (
     <section
       name="works"
-      className="w-full py-24  min-h-screen bg-[#5CDB95] px-8 "
+      className="pt-24 min-h-[85vh] bg-[#5CDB95] px-8 "
     >
       <div>
-        <p className="text-left sm:text-center text-4xl font-bold ">Project</p>
-        <p className="sm:text-center text-sm mt-2">
+        <p className="text-left sm:text-center text-2xl md:text-5xl font-bold ">Project</p>
+        <p className="sm:text-center text-sm md:text-xl mt-2">
           My <span className="text-[#EDf5E1]">projects</span>
         </p>
       </div>
