@@ -9,7 +9,7 @@ const Works = () => {
   return (
     <section
       name="works"
-      className="pt-24 min-h-[85vh] bg-[#5CDB95] px-8 "
+      className="pt-24  bg-[#5CDB95] px-8 "
     >
       <div>
         <p className="text-left sm:text-center text-2xl md:text-5xl font-bold ">Project</p>
@@ -19,11 +19,14 @@ const Works = () => {
       </div>
       <div className="max-w-[1000px] mx-auto py-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 ">
-        {project.map((x) => {
-                return (
-                  <>
-                          <div className="bg-[#EDF5E1] bg-opacity-30  shadow-xl">
-            <div className="flex flex-col  space-y-3 ">
+          {project.map((x) => {
+            return (
+              <>
+                <div data-aos="fade-right"
+                 data-aos-duration="1500"
+                  data-aos-anchor-placement="top-center"
+                  className="bg-[#EDF5E1] bg-opacity-30  shadow-xl">
+                  <div className="flex flex-col  space-y-3 ">
                     <img className="w-full" src={x.img} alt="" />
                     <p className="text-[16px] px-5 font-bold ">
                       <i class="fa-solid fa-arrow-right"></i> {x.title}
@@ -43,15 +46,15 @@ const Works = () => {
                         </a>
                       </button>
                     </div>
-                    </div>
-                    </div>
-                  </>
-                );
-              })}
-  
-             
-            
-         
+                  </div>
+                </div>
+              </>
+            );
+          })}
+
+
+
+
         </div>
       </div>
     </section>
