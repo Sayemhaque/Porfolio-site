@@ -60,7 +60,7 @@ const Skills = () => {
                   </div>
                </div>
                {/* tools i use */}
-               <div data-aos="fade-up-right"  data-aos-duration="2000"
+               <div data-aos="fade-up-right" data-aos-duration="2000"
                   data-aos-anchor-placement="top-bottom" className="bg-[#EDF5E1] bg-opacity-30 p-10 shadow-lg">
 
                   <div className="flex flex-col  space-y-5 text-[20px]">
@@ -79,7 +79,7 @@ const Skills = () => {
                   </div>
                </div>
                {/* what i am learning now */}
-               <div data-aos="fade-up-left"  data-aos-duration="2000"
+               <div data-aos="fade-up-left" data-aos-duration="2000"
                   data-aos-anchor-placement="top-bottom" className="bg-[#EDF5E1] sm:col-span-2 bg-opacity-30 p-10 shadow-lg">
                   <div className="flex flex-col  space-y-5 text-[20px]">
                      <p className="text-2xl font-bold">

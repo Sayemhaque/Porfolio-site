@@ -1,5 +1,5 @@
 import React from 'react'
-
+import AboutImg from './../images/profile-pic (11).png'
 const About = () => {
     return (
         <section name="about" className=" pt-24  bg-[#5CDB95] px-8 ">
@@ -12,16 +12,16 @@ const About = () => {
                     <div data-aos="fade-up"
                  data-aos-duration="1500"
                   data-aos-anchor-placement="top-center" className=" bg-[#EDF5E1] bg-opacity-30 p-10 ">
-                    <p className="text-justify  text-sm sm:text-lg">
+                    <span className="text-center font-serif font-bold  text-md sm:text-lg">
                     “Hello,I’m sayem! I’m passionate about web development.I’m skilled in HTML, css,JavaScript,React and many more you can look around at skill section.
                     I’m now looking for a junior frontend dev position as I am
                      learning coding since 2021.”
-                    </p>
+                    </span>
                     </div>
                     <div data-aos="fade-down"
                  data-aos-duration="1500"
                   data-aos-anchor-placement="top-center" className="">
-                        <img className="h-[400px] w-full object-contain bg-[#EDF5E1] bg-opacity-30 p-8" src="https://i.ibb.co/6nhfrPv/294798383-783431079496115-4408110538035041724-n-2.jpg" alt="294798383-783431079496115-4408110538035041724-n-2"  />
+                        <img className="h-[400px]  w-full object-contain bg-[#EDF5E1] bg-opacity-30 p-8" src={AboutImg} alt="294798383-783431079496115-4408110538035041724-n-2"  />
                     </div>
                 </div>
 
