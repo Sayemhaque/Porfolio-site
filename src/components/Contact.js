@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <section name='contact' className="pt-24  bg-[#5CDB95] px-8">
             <div>
-                <p className="text-left sm:text-center text-2xl md:text-5xl font-bold ">contact</p>
+                <p className="text-left sm:text-center text-2xl md:text-5xl font-bold ">Contact</p>
                 <p className="sm:text-center text-sm md:text-xl mt-2">
                     conncet  <span className="text-[#EDf5E1]"> with me </span>
                 </p>

@@ -22,9 +22,7 @@ const Works = () => {
           {project.map((x) => {
             return (
               <>
-                <div data-aos="fade-right"
-                 data-aos-duration="1500"
-                  data-aos-anchor-placement="top-center"
+                <div 
                   className="bg-[#EDF5E1] bg-opacity-30  shadow-xl">
                   <div className="flex flex-col  space-y-3 ">
                     <img className="w-full" src={x.img} alt="" />
