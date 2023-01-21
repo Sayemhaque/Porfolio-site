@@ -1,3 +1,9 @@
+import FoodWebsiteImg from './images/Untitled design.jpg';
+import G3ArchitectsImg from './images/Untitled design (2).jpg';
+import DonateTodayImg from './images/Untitled design (3).jpg';
+import CoffeShopImg from './images/Untitled design (4).jpg';
+
+
 export const frontedSkills = [
     { id: 1, name: "Html5" },
     { id: 2, name: "css3" },
@@ -31,32 +37,41 @@ export const learningNow = [
 
 export const projects = [
     {
-        id: 1, 
-        title: "Intagram Homepage clone using github users api.",
-        img: "https://i.ibb.co/gy0WMb0/1665409351101.png",
+        id: 1,
+        title:"Mobile Resonsive Burger shop website using vanila Html and css",
+        img: FoodWebsiteImg,
         end: "Frontend",
-        tech: ["React", "Tailwind css",],
-        liveLink: "https://sayemhaque.github.io/Instragram-2.0/",
-        githubLink: "https://github.com/Sayemhaque/Instragram-2.0"
+        tech: ["Html5", "css3", "Grid" , "Flexbox", "Media Query"],
+        liveLink: "https://sayemhaque.github.io/Food-website2/",
+        githubLink: "https://github.com/Sayemhaque/Food-website2"
     },
 
     {
         id: 2,
-        title:"Full responsive E-commerce landing page using html and bootstrap",
-        img: "https://i.ibb.co/Bjyf70h/1665412244619.png",
+        title:"Mobile Resonsive website using vanila Html and css",
+        img: G3ArchitectsImg,
         end: "Frontend",
-        tech: ["Html", "css", "Bootstrap"],
-        liveLink: "https://sayemhaque.github.io/happy-shop/",
-        githubLink: "https://github.com/Sayemhaque/happy-s"
+        tech: ["Html5", "css3", "Grid" , "Flexbox", "Media Query"],
+        liveLink: "https://sayemhaque.github.io/G3-Architects/",
+        githubLink: "https://github.com/Sayemhaque/G3-Architects"
     },
     {
-        id: 2,
-        title:"Full responsive Food Landing page using html and bootstrap",
-        img: "https://i.ibb.co/1m6sjtC/1665413880439.png",
+        id: 3, 
+        title: "Mobile Resonsive website using vanila Html and css",
+        img: DonateTodayImg,
         end: "Frontend",
-        tech: ["Html", "css", "Bootstrap"],
-        liveLink: "https://sayemhaque.github.io/Foods/",
-        githubLink: "https://github.com/Sayemhaque/Foods"
+        tech: ["Html5", "css3", "Grid" , "Flexbox", "Media Query"],
+        liveLink: "https://sayemhaque.github.io/Donate-Today/",
+        githubLink: "https://github.com/Sayemhaque/Donate-Today" 
+    },
+    {
+        id: 4, 
+        title: "Resonsive coffee shop website using  Html,Bootstrap and css.",
+        img: CoffeShopImg,
+        end: "Frontend",
+        tech: ["Html5", "css3", "Bootstrap"],
+        liveLink: "https://sayemhaque.github.io/Coffee-shop-Bootstrap/",
+        githubLink: "https://github.com/Sayemhaque/Coffee-shop-Bootstrap" 
     },
 
 ]

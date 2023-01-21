@@ -18,7 +18,7 @@ const Works = () => {
         </p>
       </div>
       <div className="max-w-[1000px] mx-auto py-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 gap-5 ">
           {project.map((x) => {
             return (
               <>
@@ -29,7 +29,7 @@ const Works = () => {
                     <p className="text-[16px] px-5 font-bold ">
                       <i class="fa-solid fa-arrow-right"></i> {x.title}
                     </p>
-                    <p className="px-5 text-zinc-500">
+                    <p className="px-5 text-zinc-700">
                       Technology: {x.tech[0]},{x.tech[1]},{x.tech[2]},{x.tech[3]}
                     </p>
                     <div className="flex justify-between px-5 pb-4">
