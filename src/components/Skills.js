@@ -73,7 +73,7 @@ const Skills = () => {
                      })}
                   </div>
                </div>
-               {/* what i am learning now */}
+               {/* what i am learning now ok veay*/}
                <div  className="bg-[#EDF5E1] sm:col-span-2 bg-opacity-30 p-10 shadow-lg">
                   <div className="flex flex-col  space-y-5 text-[20px]">
                      <p className="text-2xl font-bold">
