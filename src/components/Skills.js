@@ -22,7 +22,7 @@ const Skills = () => {
          <div className="max-w-[1000px] mx-auto pt-10">
             <div className="grid  sm:grid-cols-3 gap-5">
                {/* frontend skills */}
-               <div className="bg-[#EDF5E1] sm:col-span-2  bg-opacity-30 p-10 shadow-lg">
+               <div data-aos="zoom-in"  data-aos-duration="1000" className="bg-[#EDF5E1] sm:col-span-2  bg-opacity-30 p-10 shadow-lg">
                   <div className="flex flex-col  space-y-5 text-[20px]">
                      <p className="text-2xl font-bold">
                         <i class="fa-solid fa-square-check"></i> Front-end
@@ -39,7 +39,7 @@ const Skills = () => {
                   </div>
                </div>
                {/* backend skills */}
-               <div  className="bg-[#EDF5E1] bg-opacity-30 p-10 shadow-lg">
+               <div data-aos="zoom-in"  data-aos-duration="1000"  className="bg-[#EDF5E1] bg-opacity-30 p-10 shadow-lg">
                   <div className="flex flex-col  space-y-5 text-[20px]">
                      <p className="text-2xl font-bold">
                         <i class="fa-solid fa-square-check"></i> Backend
@@ -56,7 +56,7 @@ const Skills = () => {
                   </div>
                </div>
                {/* tools i use */}
-               <div className="bg-[#EDF5E1] bg-opacity-30 p-10 shadow-lg">
+               <div data-aos="zoom-in"  data-aos-duration="1000" className="bg-[#EDF5E1] bg-opacity-30 p-10 shadow-lg">
 
                   <div className="flex flex-col  space-y-5 text-[20px]">
                      <p className="text-2xl font-bold">
@@ -74,7 +74,7 @@ const Skills = () => {
                   </div>
                </div>
                {/* what i am learning now ok veay*/}
-               <div  className="bg-[#EDF5E1] sm:col-span-2 bg-opacity-30 p-10 shadow-lg">
+               <div data-aos="zoom-in"  data-aos-duration="1000"  className="bg-[#EDF5E1] sm:col-span-2 bg-opacity-30 p-10 shadow-lg">
                   <div className="flex flex-col  space-y-5 text-[20px]">
                      <p className="text-2xl font-bold">
                         <i class="fa-solid fa-square-check"></i> Tools

@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <section name='home' className="bg-[#5CDB95] ">
             <div className="max-w-[1000px]  bg-[#EDF5E1] min-h-screen  bg-opacity-30 shadow-lg mx-auto px-8  flex flex-col space-y-5 justify-center items-center ">
-                <img  src={HeroImg} className="rounded-full object-contain h-[200px] w-[200px] sm:h-[300px] sm:w-[300px]" alt="" />
+                <img data-aos="fade-up" data-aos-duration="1000"  src={HeroImg} className="rounded-full object-contain h-[200px] w-[200px] sm:h-[300px] sm:w-[300px]" alt="" />
                 <p className="text-xl  mt-5  font-bold">Hi,</p>
                 <h2 className="text-xl md:text-4xl font-bold">I am sayem</h2>
                 <h3  className="text-4xl md:text-6xl font-bold text-center  font-serif ">Front-end web developer</h3>

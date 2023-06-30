@@ -9,9 +9,12 @@ const Contact = () => {
                     conncet  <span className="text-[#EDf5E1]"> with me </span>
                 </p>
             </div>
-            <div className="max-w-[1000px] mx-auto pt-10">
+            <div  className="max-w-[1000px] mx-auto pt-10">
                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-5 shadow-lg '>
-                    <div className=" bg-[#EDF5E1] bg-opacity-30 p-10 flex flex-col space-y-3 justify-center">
+                    <div  data-aos="fade-right"
+                     data-aos-offset="300"
+                      data-aos-easing="ease-in-sine"
+                       className="bg-[#EDF5E1] bg-opacity-30 p-10 flex flex-col space-y-3 justify-center">
                         <input type="text" className='px-5 py-1 border-black bg-opacity-30 bg-white focus:border-none' placeholder='your name' />
                         <input type="text" className='px-5 py-1 border-black bg-opacity-30 bg-white focus:border-none' placeholder='email' />
                         <textarea cols={5} rows={10} type="text" className='px-5 py-1 border-black bg-opacity-30 bg-white focus:border-none' placeholder='write massage...' />
@@ -19,7 +22,10 @@ const Contact = () => {
                             send
                         </button>
                     </div>
-                    <div className=" bg-[#EDF5E1] text-xl bg-opacity-30 p-10 shadow-lg flex  flex-col justify-center items-center space-y-5">
+                    <div
+                      data-aos="zoom-in"
+                      data-aos-offset="300"
+                       data-aos-easing="ease-in-sine" className=" bg-[#EDF5E1] text-xl bg-opacity-30 p-10 shadow-lg flex  flex-col justify-center items-center space-y-5">
                         <a href="https://www.linkedin.com/in/md-sayem-mia-2a665623a/" target="blank"> <i className="fa-brands  fa-linkedin"></i> Linkedin</a>
                         <a href="https://www.facebook.com/profile.php?id=100086182577309" target="blank"> <i className="fa-brands fa-facebook "></i> Facebook</a>
                         <a href="https://www.instagram.com/iamsayem777/" target="blank"> <i className="fa-brands fa-instagram "></i> Instagram</a>
