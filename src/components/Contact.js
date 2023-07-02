@@ -1,6 +1,21 @@
-import React from 'react'
-
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser'; 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_mbdl6gb', 'template_0w5u9wm', form.current, 'FmuWHH0cUUyzPLKSf')
+        .then((result) => {
+            console.log(result.text);
+            const Form = e.target;
+            Form.reset()
+            console.log(Form)
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
     return (
         <section name='contact' className="pt-24  bg-[#5CDB95] px-8">
             <div>
@@ -11,17 +26,17 @@ const Contact = () => {
             </div>
             <div  className="max-w-[1000px] mx-auto pt-10">
                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-5 shadow-lg '>
-                    <div  data-aos="fade-right"
+                    <form ref={form} onSubmit={sendEmail}  data-aos="fade-right"
                      data-aos-offset="300"
                       data-aos-easing="ease-in-sine"
                        className="bg-[#EDF5E1] bg-opacity-30 p-10 flex flex-col space-y-3 justify-center">
-                        <input type="text" className='px-5 py-1 border-black bg-opacity-30 bg-white focus:border-none' placeholder='your name' />
-                        <input type="text" className='px-5 py-1 border-black bg-opacity-30 bg-white focus:border-none' placeholder='email' />
-                        <textarea cols={5} rows={10} type="text" className='px-5 py-1 border-black bg-opacity-30 bg-white focus:border-none' placeholder='write massage...' />
+                        <input type="text" name='from_name' className='px-5 py-1 border-black bg-opacity-30 bg-white focus:border-none' placeholder='your name' />
+                        <input type="email" name='from_email' className='px-5 py-1 border-black bg-opacity-30 bg-white focus:border-none' placeholder='email' />
+                        <textarea name='message' cols={5} rows={10} type="text" className='px-5 py-1 border-black bg-opacity-30 bg-white focus:border-none' placeholder='write massage...' />
                         <button className="bg-zinc-800 bg-opacity-80 py-2 px-5 hover:bg-opacity-100 text-[#EDF5E1]">
                             send
                         </button>
-                    </div>
+                    </form>
                     <div
                       data-aos="zoom-in"
                       data-aos-offset="300"
