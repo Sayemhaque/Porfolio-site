@@ -18,7 +18,7 @@ export const frontedSkills = [
 ]
 
 export const backednSkills = [
-    { id: 1, name: "Node js" },
+    { id: 1, name: "Node js (Basic)" },
     { id: 2, name: "Express js" },
     { id: 3, name: "Mongodb" },
 ]
@@ -29,13 +29,13 @@ export const tools = [
     { id: 3, name: "Github" },
     { id: 4, name: "Firebase" },
     { id: 5, name: "Netlify" },
-    { id: 6, name: "Heroku" },
+    { id: 6, name: "Vercel" },
 ]
 
 export const learningNow = [
     { id: 1, name: "Typescript" },
     { id: 2, name: "Redux" },
-    { id: 3, name: "React testing" },
+    { id: 3, name: "Next Js" },
 ]
 
 export const projects = [
