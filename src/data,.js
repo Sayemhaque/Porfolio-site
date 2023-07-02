@@ -1,7 +1,4 @@
-import FoodWebsiteImg from './images/Untitled design.jpg';
-import G3ArchitectsImg from './images/Untitled design (2).jpg';
-import DonateTodayImg from './images/Untitled design (3).jpg';
-import CoffeShopImg from './images/Untitled design (4).jpg';
+
 import shaporiItalianoImg from './images/recipe-app.png';
 import toyCastleImg from './images/toy-castle.png';
 import sportifyImg from './images/sportify-camp(2).png';
@@ -39,45 +36,8 @@ export const learningNow = [
 ]
 
 export const projects = [
-    // {
-    //     id: 1,
-    //     title:"Mobile Resonsive Burger shop website using vanila Html and css",
-    //     img: FoodWebsiteImg,
-    //     end: "Frontend",
-    //     tech: ["Html5", "css3", "Grid" , "Flexbox", "Media Query"],
-    //     liveLink: "https://sayemhaque.github.io/Food-website2/",
-    //     githubLinkClient: "https://github.com/Sayemhaque/Food-website2"
-    // },
-
-    // {
-    //     id: 2,
-    //     title:"Mobile Resonsive website using vanila Html and css",
-    //     img: G3ArchitectsImg,
-    //     end: "Frontend",
-    //     tech: ["Html5", "css3", "Grid" , "Flexbox", "Media Query"],
-    //     liveLink: "https://sayemhaque.github.io/G3-Architects/",
-    //     githubLinkClient: "https://github.com/Sayemhaque/G3-Architects"
-    // },
-    // {
-    //     id: 3, 
-    //     title: "Mobile Resonsive website using vanila Html and css",
-    //     img: DonateTodayImg,
-    //     end: "Frontend",
-    //     tech: ["Html5", "css3", "Grid" , "Flexbox", "Media Query"],
-    //     liveLink: "https://sayemhaque.github.io/Donate-Today/",
-    //     githubLinkClient: "https://github.com/Sayemhaque/Donate-Today" 
-    // },
-    // {
-    //     id: 4, 
-    //     title: "Resonsive coffee shop website using  Html,Bootstrap and css.",
-    //     img: CoffeShopImg,
-    //     end: "Frontend",
-    //     tech: ["Html5", "css3", "Bootstrap"],
-    //     liveLink: "https://sayemhaque.github.io/Coffee-shop-Bootstrap/",
-    //     githubLinkClient: "https://github.com/Sayemhaque/Coffee-shop-Bootstrap" 
-    // },
     {
-        id: 5, 
+        id: 1, 
         title: "Sapori Italiano",
         img: shaporiItalianoImg,
         end: "MERN STACK",
@@ -88,7 +48,7 @@ export const projects = [
         githubLinkServer: "https://github.com/Sayemhaque/chef-website-backend" 
     },
     {
-        id: 6, 
+        id: 2, 
         title: "TOY Castle",
         img: toyCastleImg,
         stack: "MERN STACK",
@@ -99,7 +59,7 @@ export const projects = [
         githubLinkServer: "https://github.com/Sayemhaque/toy-castle-server" 
     },
     {
-        id: 6, 
+        id: 3, 
         title: "Sportify Camp",
         img: sportifyImg,
         stack: "MERN STACK",
