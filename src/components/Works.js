@@ -31,7 +31,7 @@ const Works = () => {
                     <p className="text-2xl px-5 font-bold ">
                       <i class="fa-solid fa-arrow-right"></i> {x.title}
                     </p>
-                    <p className="px-5 text-justify">{x.details}</p>
+                    <p className="px-5 text-left font-serif m-0 p-0">{x.details}</p>
                     <p className="px-5 text-zinc-800 ">
                       Technology:  {x.tech.join(" | ")}
                     </p>
