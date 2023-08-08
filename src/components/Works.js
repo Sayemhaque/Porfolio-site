@@ -42,7 +42,8 @@ const Works = () => {
                         <a  className="bg-zinc-800  bg-opacity-80 py-1 px-5 hover:bg-opacity-100 text-[#EDF5E1]" href={x.githubLinkServer} target="blank">
                           <i class="fa-brands fa-github"></i> Github Server
                         </a>
-                        <a className="bg-zinc-800 bg-opacity-80 py-1 px-5 hover:bg-opacity-100 text-[#EDF5E1]" href={x.liveLink} target="blank">
+                        <a className="bg-zinc-800 bg-opacity-80 py-1 px-5 hover:bg-opacity-100 text-[#EDF5E1]"
+                         href={x.liveLink} target="blank">
                           <i class="fa-solid fa-eye"></i> Live
                         </a>
                     </div>
@@ -51,10 +52,6 @@ const Works = () => {
               </>
             );
           })}
-
-
-
-
         </div>
       </div>
     </section>

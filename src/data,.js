@@ -52,7 +52,7 @@ export const projects = [
         title: "TOY Castle",
         img: toyCastleImg,
         stack: "MERN STACK",
-        details:"Sportify is a feature-rich web app for sports enthusiasts. It offers JWT authorization, role-based routing, admin/instructor panels, Firebase authentication, and Stripe payment integration. Users can connect, explore sports classes, and make secure online payments.",
+        details:"Toy Castle is a MERN full-stack web app with Firebase authentication. Users can register to access all features, including adding toys, updating/deleting their toys, and searching toys by name on the All Toys page.",
         tech: ["React Js","Tailwind css","DaisyUi","React Router Dom","Express js","MongoDB","Firebase","React Tabs","react-toastify"],
         liveLink: "https://toy-castle-409e5.web.app/",
         githubLinkClient: "https://github.com/Sayemhaque/toy-castle-client" ,
