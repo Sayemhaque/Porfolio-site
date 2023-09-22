@@ -2,6 +2,10 @@
 import shaporiItalianoImg from './images/recipe-app.png';
 import toyCastleImg from './images/toy-castle.png';
 import sportifyImg from './images/sportify-camp(2).png';
+import geometriImg from './images/Annotation 2023-09-22 140326.png';
+import  AiUniverseImg from './images/Annotation 2023-09-22 145802.png';
+import  WriteOnImg from './images/Annotation 2023-09-22 150228.png';
+import  JobLioImg from './images/Annotation 2023-09-22 153408.png';
 
 
 export const frontedSkills = [
@@ -68,6 +72,50 @@ export const projects = [
         liveLink: "https://sportify-app-35c1c.web.app/",
         githubLinkClient: "https://github.com/Sayemhaque/sportify-camp" ,
         githubLinkServer: "https://github.com/Sayemhaque/sportify-camp-backend" 
+    },
+    {
+        id: 4, 
+        title: "Geometri Genious",
+        img: geometriImg,
+        stack: "Javascript",
+        details:"Different area calculation using javascirpt DOM manupulation",
+        tech: ["HTML","CSS","Javascript","DOM"],
+        liveLink: "https://geometri-genious.netlify.app/",
+        githubLinkClient: "https://geometri-genious.netlify.app/" ,
+        githubLinkServer: "https://geometri-genious.netlify.app/" 
+    },
+    {
+        id: 5, 
+        title: "Ai Universe",
+        img: AiUniverseImg,
+        stack: "Javascript",
+        details:"Dynamic Javascript website using Api",
+        tech: ["HTML","CSS","Javascript","Api"],
+        liveLink: "https://ai-universe-hubb.netlify.app/",
+        githubLinkClient: "https://ai-universe-hubb.netlify.app/" ,
+        githubLinkServer: "https://ai-universe-hubb.netlify.app/" 
+    },
+    {
+        id: 6, 
+        title: "Write On",
+        img: WriteOnImg,
+        stack: "ReactJs",
+        details:"User can add blog to bookmark and aslo can read time.",
+        tech: ["HTML","CSS","ReactJs","Api","Hooks"],
+        liveLink: "https://write-onn.netlify.app/",
+        githubLinkClient: "https://write-onn.netlify.app/" ,
+        githubLinkServer: "https://write-onn.netlify.app/" 
+    },
+    {
+        id: 7, 
+        title: "Job Lio",
+        img: JobLioImg,
+        stack: "ReactJs",
+        details:"Apply jobs and jobs will store in Local Storeage.",
+        tech: ["HTML","CSS","ReactJs","Api","Hooks","Local Storage"],
+        liveLink: "https://write-onn.netlify.app/",
+        githubLinkClient: "https://write-onn.netlify.app/" ,
+        githubLinkServer: "https://write-onn.netlify.app/" 
     },
 
 ]

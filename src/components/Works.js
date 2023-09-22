@@ -28,11 +28,11 @@ const Works = () => {
                   className="bg-[#EDF5E1] bg-opacity-30  shadow-xl">
                   <div className="flex flex-col  space-y-3 ">
                     <img className="w-full" src={x.img} alt="" />
-                    <p className="text-2xl px-5 font-bold ">
+                    <p className="text-xl px-5 font-bold ">
                       <i class="fa-solid fa-arrow-right"></i> {x.title}
                     </p>
-                    <p className="px-5 text-left font-serif m-0 p-0">{x.details}</p>
-                    <p className="px-5 text-zinc-800 ">
+                    <p className="px-5 text-left text-zinc-700 font-serif m-0 p-0 text-sm text">{x.details}</p>
+                    <p className="px-5 text-zinc-700 ">
                       Technology:  {x.tech.join(" | ")}
                     </p>
                     <div className="flex flex-col gap-5 text-center md:gap-0 md:flex-row justify-between px-5 pb-4">
